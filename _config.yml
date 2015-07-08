@@ -1,0 +1,26 @@
+# Site properties
+title: Nepherte (dot) be
+url: http://www.nepherte.be
+description: Programming and human factors
+
+# Project folders
+plugins: ./_plugins
+layouts: ./_layouts
+destination: ./_site
+
+# Conversion settings
+markdown: kramdown
+highlighter: pygments
+
+# Host configuration
+port: 8072
+host: 127.0.0.1
+
+# Output settings
+timezone: null
+permalink: /blog/:title.html
+
+# Handling reading
+markdown_ext: "md"
+exclude: ["*.iml", "Gemfile*"]
+
