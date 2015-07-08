@@ -22,5 +22,6 @@ permalink: /blog/:title.html
 
 # Handling reading
 markdown_ext: "md"
+include: ["_lib"]
 exclude: ["*.iml", "Gemfile*"]
 
