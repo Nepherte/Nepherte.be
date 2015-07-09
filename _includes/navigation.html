@@ -1,0 +1,46 @@
+<nav class="navbar navbar-default navbar-fixed-top no-select" role="navigation">
+  <div class="container">
+
+    <!-- Non-collapsible header -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse"
+       data-target=".navbar-collapse">
+
+        <!-- Collapsed header -->
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!-- Site brand -->
+      <div class="navbar-brand">{{ site.title }}</div>
+    </div>
+
+    <!-- Collapsible navigation menu -->
+    <div class="navbar-collapse collapse">
+
+      <!-- Collapsible search box -->
+      <form class="navbar-form navbar-right" role="search">
+        <div class="input-group">
+
+          <!-- Search text box -->
+          <input type="text" class="form-control" placeholder="Search">
+
+          <!-- Search button -->
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit">
+              <span class="glyphicon glyphicon-search"></span>
+              <span class="sr-only">Search</span>
+            </button>
+          </div>
+        </div>
+      </form>
+
+      <!-- Menu items -->
+      <ul class="nav navbar-nav" role="menubar">{% for node in site.pages %}
+        <li role="menuitem">{% if page.url == node.url %}<a href="{{ node.url }}" class="active">{{ node.title }}</a>{% else %}<a href="{{ node.url }}">{{ node.title }}</a>{% endif %}</li>{% endfor %}
+      </ul>
+    </div>
+  </div>
+</nav>

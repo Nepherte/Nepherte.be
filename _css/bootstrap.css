@@ -1,0 +1,49 @@
+@import url("/_lib/bootstrap/3.3.5/css/bootstrap.min.css");
+@import url("/_lib/bootstrap/3.3.5/css/bootstrap-theme.min.css");
+
+/* Navigation bar */
+
+.navbar {
+  margin-bottom: 0;
+  border-bottom-width: 0;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color:#777;
+}
+
+.navbar-default .navbar-nav > li > a.active {
+  color: #336699;
+}
+
+.navbar-form .form-control:active,
+.navbar-form .form-control:focus {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+.navbar-collapse {
+  border-top: 0 solid transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* Search box */
+
+.input-group-btn > .btn:hover,
+.input-group-btn > .btn:focus,
+.input-group-btn > .btn:active {
+  z-index: 0;
+}
+
+/* Button */
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  color: #336699;
+  border-color: #ccc;
+  background-position: 0 0;
+}

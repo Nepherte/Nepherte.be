@@ -1,0 +1,78 @@
+html,
+body {
+  color: #555;
+  height: 100%;
+  font-size: 14px;
+}
+
+/* Headings */
+
+h1 {
+  color: #ffffff;
+  font-size: 36px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+/* Paragraphs */
+
+p {
+  margin: 0 0 22px;
+}
+
+/* Block quotes */
+
+blockquote {
+  border: 0 none;
+  font-size: inherit;
+  font-style: italic;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+blockquote p {
+  display: inline;
+}
+
+blockquote:before {
+  color: #555;
+  content: open-quote;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.1em;
+  vertical-align: -0.4em;
+}
+
+blockquote:after {
+  color: #555;
+  content: close-quote;
+  font-size: 2em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+
+/* Footer */
+
+footer {
+  color: #777;
+  font-size: 12px;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+footer a {
+  color: #777;
+  text-decoration: underline;
+}
+
+/* Disable selection */
+
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
