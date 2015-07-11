@@ -1,0 +1,16 @@
+---
+layout: base
+---
+<!-- Cover -->
+<div class="cover no-select">
+  <div class="cover-inner">
+    <div class="cover-container">
+      <!-- Content -->
+      {{ content | indent:6 }}
+    </div>
+    <!-- Footer -->
+    <footer>
+      {% indent_include footer.html 6 %}
+    </footer>
+  </div>
+</div>
