@@ -4,6 +4,7 @@
       <div class="col-md-9 col-xs-12">
         <h1>{% if page.jumbo-title %}{{ page.jumbo-title }}{% else %}{{ page.title }}{% endif %}</h1>
         {% if page.jumbo-subtitle %}<p>{{ page.jumbo-subtitle }}</p>{% endif %}
+        {% if page.date %} <p>Posted on {{ page.date | date: "%B %-d, %Y" }} by Nepherte in {{ page.category | capitalize }}</p> {% endif %}
       </div>
     </div>
   </div>
