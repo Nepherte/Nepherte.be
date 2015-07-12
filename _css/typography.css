@@ -174,3 +174,39 @@ footer a {
     width: 900px;
   }
 }
+
+/* Jumbotron */
+
+.jumbo {
+  color: rgb(218, 225, 255);
+  background-color: #336699;
+  padding-top: 90px;
+  padding-bottom: 45px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.jumbo h1 {
+  font-size: 26px;
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+
+.jumbo p {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Page */
+
+.page h1 {
+  color: #444444;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.page img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}

@@ -1,0 +1,29 @@
+---
+layout: base
+---
+<!-- Jumbotron -->
+{% indent_include jumbotron.html 0 %}
+
+<!-- Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-9 col-xs-12">
+      <div class="page">
+        {{ content | indent:8 }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <footer>
+        <div class="col-xs-12 col-md-9">
+          {% indent_include footer.html 10 %}
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>

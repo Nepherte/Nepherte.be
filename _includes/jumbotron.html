@@ -1,0 +1,10 @@
+<div class="jumbo">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9 col-xs-12">
+        <h1>{% if page.jumbo-title %}{{ page.jumbo-title }}{% else %}{{ page.title }}{% endif %}</h1>
+        {% if page.jumbo-subtitle %}<p>{{ page.jumbo-subtitle }}</p>{% endif %}
+      </div>
+    </div>
+  </div>
+</div>
