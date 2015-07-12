@@ -210,3 +210,27 @@ footer a {
   height: auto;
   max-width: 100%;
 }
+
+/* Sidebar */
+
+.sidebar.affix {
+  top: 95px;
+}
+
+@media (min-width: 768px) {
+  .sidebar.affix {
+    width: 158px;
+  }
+}
+
+@media (min-width: 992px) {
+  .sidebar.affix {
+    width: 213px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sidebar.affix {
+    width: 263px;
+  }
+}

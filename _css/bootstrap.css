@@ -47,3 +47,12 @@
   border-color: #ccc;
   background-position: 0 0;
 }
+
+/* Panel */
+
+.panel-default>.panel-heading {
+  font-weight: bold;
+  background-image:-webkit-linear-gradient(top,#fff 0,#f8f8f8 100%);
+  background-image:-o-linear-gradient(top,#fff 0,#f8f8f8 100%);
+  background-image:linear-gradient(to bottom,#fff 0,#f8f8f8 100%);
+}
