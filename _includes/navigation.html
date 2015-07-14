@@ -38,7 +38,7 @@
       </form>
 
       <!-- Menu items -->
-      <ul class="nav navbar-nav" role="menubar">{% for node in site.pages %}
+      <ul class="nav navbar-nav" role="menubar">{% assign sorted_pages = (site.pages | sort: 'position') %}{% for node in sorted_pages %}
         <li role="menuitem">{% if page.url == node.url %}<a href="{{ node.url }}" class="active">{{ node.title }}</a>{% else %}<a href="{{ node.url }}">{{ node.title }}</a>{% endif %}</li>{% endfor %}
       </ul>
     </div>
