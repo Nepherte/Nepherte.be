@@ -8,9 +8,11 @@
   border-bottom-width: 0;
 }
 
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color:#777;
+  color:#333;
 }
 
 .navbar-default .navbar-nav > li > a.active {
