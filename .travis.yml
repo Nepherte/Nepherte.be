@@ -8,5 +8,10 @@ rvm:
 # Use Bundler to install gems
 install: bundle install --jobs=3 --retry=3
 
-# Use Jekyll to build site
-script: jekyll build
+# Use Jekyll to build site & perform sanity check
+script: jekyll build && html-proof ./_site
+
+env:
+  global:
+  # speeds up installation of html-proofer
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
