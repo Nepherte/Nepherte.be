@@ -1,0 +1,12 @@
+# Source code language
+language: ruby
+
+# The compiler version
+rvm:
+- 2.1
+
+# Use Bundler to install gems
+install: bundle install --jobs=3 --retry=3
+
+# Use Jekyll to build site
+script: jekyll build
