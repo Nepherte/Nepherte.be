@@ -20,6 +20,14 @@ p {
   margin: 0 0 22px;
 }
 
+/* Hyperlinks */
+a,
+a:hover,
+a:focus,
+a:active {
+  color: #337AB7;
+}
+
 /* Block quotes */
 
 blockquote {
