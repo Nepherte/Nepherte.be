@@ -19,6 +19,7 @@ script: jekyll build && htmlproof ./_site
 # Upload site to server
 after_success:
 - cd _site/
+- chmod 0600 ../_secrets/id_rsa
 - scp -i ../_secrets/id_rsa -r ./* nepherte.be@ssh.nepherte.be:/www
 
 env:
