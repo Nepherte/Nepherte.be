@@ -5,11 +5,21 @@ language: ruby
 rvm:
 - 2.1
 
+# Decrypt scp secrets
+before_install:
+- openssl aes-256-cbc -K $encrypted_dcaf48176853_key -iv $encrypted_dcaf48176853_iv
+  -in _secrets/id_rsa.enc -out _secrets/id_rsa -d
+
 # Use Bundler to install gems
 install: bundle install --jobs=3 --retry=3
 
 # Use Jekyll to build site & perform sanity check
 script: jekyll build && htmlproof ./_site
+
+# Upload site to server
+after_success:
+- cd _site/
+- scp -i ../_secrets/id_rsa -r ./* nepherte.be@ssh.nepherte.be:/www
 
 env:
   global:
