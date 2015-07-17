@@ -25,3 +25,6 @@ env:
   global:
   # speeds up installation of html-proofer
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+addons:
+  ssh_known_hosts: ssh.nepherte.be
