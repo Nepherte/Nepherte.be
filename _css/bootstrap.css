@@ -58,3 +58,14 @@
   background-image:-o-linear-gradient(top,#fff 0,#f8f8f8 100%);
   background-image:linear-gradient(to bottom,#fff 0,#f8f8f8 100%);
 }
+
+/* Images */
+
+.pull-left {
+  padding-right: 15px;
+}
+
+.pull-right {
+  padding-left: 15px;
+}
+
