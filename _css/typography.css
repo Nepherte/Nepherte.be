@@ -66,11 +66,8 @@ blockquote:after {
 /* Footer */
 
 footer {
-  color: #777;
-  font-size: 12px;
-  border-top: 1px solid #ddd;
-  margin-top: 40px;
-  padding-top: 10px;
+  width: 100%;
+  padding-top: 12px;
   text-align: center;
 }
 
@@ -96,9 +93,11 @@ footer a {
   background-color: #336699;
 
   display: table;
+  position: absolute;
+
   width: 100%;
   height: 100%;
-  min-height: 100%;
+  min-height: 475px;
 }
 
 .cover-inner {
@@ -114,7 +113,7 @@ footer a {
 }
 
 .cover-inner p {
-  margin: 0 0 36px;
+  margin: 0 0 50px;
 }
 
 .cover-logo {
@@ -131,11 +130,11 @@ footer a {
   line-height: 140px;
 
   border: 1px solid #ffffff;
-  margin: 0 auto 30px;
+  margin: 0 auto 50px;
 }
 
 .cover a {
-  color: #f8f8f8;
+  color: #f3f4f6;
 }
 
 .cover button {
@@ -143,12 +142,13 @@ footer a {
 }
 
 .cover footer {
-  width: 100%;
+  bottom: 10px;
   border-top: 0;
+  position: absolute;
 }
 
 .cover footer>p {
-  color: #f8f8f8;
+  color: #f3f4f6;
   font-size: 14px;
   margin: 0 0 22px;
 }
@@ -174,17 +174,38 @@ footer a {
   }
 }
 
-@media (min-width: 768px) {
-  .cover footer {
-    position: fixed;
-    bottom: 10px;
-  }
-}
-
 @media (min-width: 992px) {
   .cover-container {
     width: 900px;
   }
+}
+
+/* Page */
+
+.page {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+.page h1 {
+  color: #444444;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.page img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.page footer {
+  bottom: 0;
+  color: #777;
+  font-size: 12px;
+  position: absolute;
+  border-top: 1px solid #ddd;
 }
 
 /* Jumbotron */
@@ -199,6 +220,7 @@ footer a {
 }
 
 .jumbo h1 {
+  color: #ffffff;
   font-size: 26px;
   margin-top: 0;
   margin-bottom: 7px;
@@ -209,18 +231,8 @@ footer a {
   margin: 0;
 }
 
-/* Page */
-
-.page h1 {
-  color: #444444;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.page img {
-  display: block;
-  height: auto;
-  max-width: 100%;
+.content {
+  padding-bottom: 67px;
 }
 
 /* Sidebar */
