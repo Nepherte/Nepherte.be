@@ -40,7 +40,7 @@ a bit.
 - Bit rates (Khz): 44.1, 48, 88.2, 96, 176.4 and 192
 
 <br/>
-{% include image.html src="/_images/totaldac-d1-dual-combo.jpg" %}
+{% include image.html src="/_images/totaldac-d1-dual-combo.jpg" desc="The TotalDAC D1-Dual (left) and PSU (right)." %}
 
 The included remote allows you to select the input (RCA/AES-EBU/Optical/USB),
 volume (up/down), phase polarity (inverted/normal), earth connection (on/off)
@@ -86,7 +86,7 @@ a Belgian mini-meet. The first thing that came to mind: "But this is what
 vinyl sounds like!" The total price, as configured, is €10640. Shipment with
 FedEx is another €140, although that varies from destination to destination.
 
-{% include image.html src="/_images/totaldac-d1-dual.jpg" %}
+{% include image.html src="/_images/totaldac-d1-dual.jpg" desc="A closer look on the TotalDAC D1-Dual." %}
 
 The USB driver can be downloaded from [http://www.totaldac.com](http://www.totaldac.com).
 A link is sent to you by email upon purchase. The company website also provides
@@ -115,7 +115,7 @@ you might as well include a fancy remote. And while I only used the remote
 during initial setup, people that actively use the volume control or switch
 between inputs, use it all the time. The devil is in the details.
 
-{% include image.html src="/_images/totaldac-d1-dual-remote.jpg" %}
+{% include image.html src="/_images/totaldac-d1-dual-remote.jpg" desc="The TotalDAC D1-Dual Remote." %}
 
 The housing, and the face plate in particular, has a tendency to attract dust.
 People try to handle their equipment with care. Keeping it dust-free is one of
