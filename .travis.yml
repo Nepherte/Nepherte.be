@@ -1,5 +1,6 @@
 # Source code language
 language: ruby
+cache: bundler
 
 # The compiler version
 rvm:
