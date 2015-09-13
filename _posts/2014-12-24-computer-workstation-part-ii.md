@@ -1,7 +1,7 @@
 ---
 layout: post
 category: Hardware
-title: "A Computer Workstation, Part II"
+title: "Computer Workstation, Part II"
 ---
 
 # Introduction
@@ -32,6 +32,7 @@ constraints into account, I got the following list of components:
 - **RAM**: Kingston HyperX Fury 2x8GB
 - **SSD**: Samsung 850 Pro 256 GB
 - **Graphics**: Asus 970GTX STRIX
+- **Optical Drive**: Asus BC-12D2HT
 
 # Building Experiences
 
