@@ -40,7 +40,7 @@ a bit.
 - Bit rates (Khz): 44.1, 48, 88.2, 96, 176.4 and 192
 
 <br/>
-{% include image.html src="/_images/totaldac-d1-dual-combo.jpg" desc="The TotalDAC D1-Dual (left) and PSU (right)." %}
+{% include image.html src="/_images/totaldac-d1-dual.jpg" desc="Mugshot of the TotalDAC D1-Dual." %}
 
 The included remote allows you to select the input (RCA/AES-EBU/Optical/USB),
 volume (up/down), phase polarity (inverted/normal), earth connection (on/off)
@@ -86,7 +86,7 @@ a Belgian mini-meet. The first thing that came to mind: "But this is what
 vinyl sounds like!" The total price, as configured, is €10640. Shipment with
 FedEx is another €140, although that varies from destination to destination.
 
-{% include image.html src="/_images/totaldac-d1-dual.jpg" desc="A closer look on the TotalDAC D1-Dual." %}
+{% include image.html src="/_images/totaldac-d1-dual-front.jpg" desc="A closer look on the TotalDAC D1-Dual." %}
 
 The USB driver can be downloaded from [http://www.totaldac.com](http://www.totaldac.com).
 A link is sent to you by email upon purchase. The company website also provides
@@ -108,6 +108,8 @@ TotalDAC uses the same housing for all of its products. That means unused inputs
 & outputs, covered up and nicely tucked away in the back. Definitely not worth
 obsessing over. After installation, you will likely forget they were even there
 to begin with.
+
+{% include image.html src="/_images/totaldac-d1-dual-back.jpg" desc="The unused I/O connectors on the back of the TotalDAC D1-Dual are covered up." %}
 
 The remote is a bit of a let-down. I understand the reasoning to go with a
 sturdy Philips remote. It gets the job done. But let's be honest, for the money
