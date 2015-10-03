@@ -388,7 +388,7 @@ focused window? What workspaces contain windows? All this and more is provided
 by logHook. An actual status bar is unfortunately not included. For that, we
 rely on a 3rd-party application. XMonad integrates nicely with dzen2 (and xmobar).
 
-[Patrick Brisbin](https://pbrisbin.com) wrote a little Haskell library for
+[Patrick Brisbin](http://pbrisbin.com) wrote a little Haskell library for
 dzen2. It makes it very easy to create a dzen2 status bar. Download it from
 [Github](https://github.com/pbrisbin/xmonad-config/blob/92b2653aabd4c3ca1854473e3679a2f11e278550/lib/Dzen.hs)
 and put it inside  /home/\<user\>/.xmonad/lib/. Do not forget to install dzen2.
