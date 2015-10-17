@@ -1,6 +1,6 @@
 html,
 body {
-  color: #333;
+  color: #444;
   height: 100%;
   font-size: 14px;
 }
@@ -10,8 +10,8 @@ body {
 h1 {
   color: #ffffff;
   font-size: 36px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 36px;
+  margin-bottom: 16px;
 }
 
 h1:first-child {
@@ -90,7 +90,7 @@ footer a {
 
 .cover {
   color: #ffffff;
-  background-color: #336699;
+  background: #336699 linear-gradient(to bottom, #336699 0px, #326ea0 100%);
 
   display: table;
   position: absolute;
@@ -134,7 +134,7 @@ footer a {
 }
 
 .cover a {
-  color: #f3f4f6;
+  color: #b5c2eb;
 }
 
 .cover button {
@@ -148,20 +148,27 @@ footer a {
 }
 
 .cover footer>p {
-  color: #f3f4f6;
+  color: #b5c2eb;
   font-size: 14px;
   margin: 0 0 22px;
 }
 
-.cover .btn-default,
-.cover .btn-default:hover,
-.cover .btn-default:focus,
-.cover .btn-default:active {
-  color: #333;
-  font-size: 18px;
-  font-weight: bold;
+.cover .btn-default {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
   padding: 10px 20px;
+  background: transparent none;
   text-decoration: none;
+  text-shadow: none;
+}
+
+.cover .btn-default:hover,
+.cover .btn-default:active,
+.cover .btn-default:focus {
+  color: #333;
+  background: transparent none;
+  border-color: #ffffff;
 }
 
 @media (min-width: 768px) {
@@ -212,8 +219,8 @@ footer a {
 
 .jumbo {
   color: rgb(218, 225, 255);
-  background-color: #336699;
-  padding-top: 90px;
+  background: #336699 linear-gradient(to bottom, #336699 0px, #326ea0 100%);
+  padding-top: 95px;
   padding-bottom: 45px;
   margin-bottom: 40px;
   text-align: center;
@@ -221,9 +228,9 @@ footer a {
 
 .jumbo h1 {
   color: #ffffff;
-  font-size: 26px;
+  font-size: 28px;
   margin-top: 0;
-  margin-bottom: 7px;
+  margin-bottom: 6px;
 }
 
 .jumbo p {

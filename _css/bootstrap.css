@@ -21,15 +21,11 @@
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #444;
+  color: #222;
   font-weight: 500;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #000;
-}
-
-.navbar-default .navbar-nav > li > a.active {
   color: #336699;
 }
 
