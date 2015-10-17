@@ -3,7 +3,7 @@ layout: page
 title: Blog
 position: 1
 
-jumbo-title: Blog Archive
+jumbo-title: Blog Articles
 jumbo-subtitle: Random Musings of a Software Engineer
 ---
 {% for category in site.categories %}
