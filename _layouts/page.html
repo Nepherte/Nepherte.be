@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<div class="page">
+<section class="page">
   <!-- Jumbotron -->
   {% indent_include jumbotron.html 0 %}
 
@@ -9,13 +9,13 @@ layout: base
   <div class="container">
     <div class="row">
       <div class="col-md-9 col-xs-12">
-        <div class="content">
+        <article class="content">
           {{ content | indent:8 }}
-        </div>
+        </article>
       </div>
       <!-- Table of Contents -->
       <div class="col-md-3 hidden-xs hidden-sm">
-        <div id="table-of-contents" class="sidebar no-select" data-spy='affix' data-offset-top="146"></div>
+        <aside id="table-of-contents" class="sidebar no-select" data-spy='affix' data-offset-top="146"></aside>
       </div>
     </div>
   </div>
@@ -30,4 +30,4 @@ layout: base
       </div>
     </div>
   </footer>
-</div>
+</section>
